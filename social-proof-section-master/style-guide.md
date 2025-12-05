@@ -32,4 +32,3 @@ White: hsl(0, 0%, 100%)
 
 - Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
 - Weights: 400, 500, 700
-
