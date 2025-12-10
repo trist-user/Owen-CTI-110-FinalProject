@@ -30,14 +30,40 @@ body{
     color: hsl(300, 43%, 22%) ;
 }
 
+.div3, .div4, .div5{
+    background-color: hsl(300, 24%, 96%) ;
+    border-radius: 12px;
+}
+.div6, .div7, .div8{
+    background-color: hsl(300, 43%, 22%) ;
+    border-radius: 12px;
+    padding: 1rem;
+}
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    gap: 8px;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
 }
-    
+
+@media (min-width: 768px) {
+    .parent {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .parent {
+        grid-template-columns: repeat(3, 3fr);
+        gap: 2rem;
+        max-width:1200px;
+        margin: 0 auto;
+    }
+}
+/*
 .div1 {
     grid-column: span 3 / span 3;
     grid-row: span 2 / span 2;
@@ -89,4 +115,4 @@ body{
     grid-column-start: 8;
     grid-row-start: 9;
 }
-        
+*/
