@@ -6,6 +6,8 @@ body{
     font-family: 'league spartan', sans-serif;
     font-weight: 400, 500, 700;
     font-size: 15px;
+    overflow-wrap: normal;
+    text-wrap: balance;
 }
 #is_buyer{
     color: hsl(333, 80%, 67%) ;
@@ -30,6 +32,16 @@ body{
     color: hsl(300, 43%, 22%) ;
 }
 
+#prof{
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5rem;
+    border-radius: 20px ;
+}
+#is_buyer{
+    margin-left: auto;
+    max-width: 87%;
+}
 .div3, .div4, .div5{
     background-color: hsl(300, 24%, 96%) ;
     border-radius: 12px;
@@ -63,56 +75,4 @@ body{
         margin: 0 auto;
     }
 }
-/*
-.div1 {
-    grid-column: span 3 / span 3;
-    grid-row: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 3;
-}
 
-.div2 {
-    grid-column: span 3 / span 3;
-    grid-column-start: 2;
-    grid-row-start: 5;
-}
-
-.div3 {
-    grid-column: span 2 / span 2;
-    grid-column-start: 8;
-    grid-row-start: 3;
-}
-
-.div4 {
-    grid-column: span 2 / span 2;
-    grid-column-start: 9;
-    grid-row-start: 4;
-}
-
-.div5 {
-    grid-column: span 2 / span 2;
-    grid-column-start: 10;
-    grid-row-start: 5;
-}
-
-.div6 {
-    grid-column: span 3 / span 3;
-    grid-row: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 7;
-}
-
-.div7 {
-    grid-column: span 3 / span 3;
-    grid-row: span 2 / span 2;
-    grid-column-start: 5;
-    grid-row-start: 8;
-}
-
-.div8 {
-    grid-column: span 3 / span 3;
-    grid-row: span 2 / span 2;
-    grid-column-start: 8;
-    grid-row-start: 9;
-}
-*/
